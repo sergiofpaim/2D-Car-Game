@@ -1,4 +1,4 @@
-﻿namespace CarGame
+﻿namespace Enviroment.View
 {
     partial class TwoDWorld
     {
@@ -32,27 +32,27 @@
             this.runButton = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
             this.restart = new System.Windows.Forms.Button();
-            this.greenCar = new CarGame.MovingObjects.Car.Car();
-            this.blueCar = new CarGame.MovingObjects.Car.Car();
+            this.greenCar = new MovingObjects.Car.Car();
+            this.blueCar = new MovingObjects.Car.Car();
             this.stepButton = new System.Windows.Forms.Button();
-            this.blueCompass = new CarGame.Enviroment.View.Compass();
-            this.greenCompass = new CarGame.Enviroment.View.Compass();
+            this.blueCompass = new Enviroment.View.Compass();
+            this.greenCompass = new Enviroment.View.Compass();
             this.blueCockpit = new System.Windows.Forms.Panel();
             this.gearBlue = new System.Windows.Forms.Label();
-            this.bluePedals = new CarGame.Enviroment.View.Pedals();
+            this.bluePedals = new Enviroment.View.Pedals();
             this.blueCurrentGear = new System.Windows.Forms.TextBox();
-            this.blueSteeringWheel = new CarGame.Enviroment.View.SteeringWheel();
-            this.blueTachometer = new CarGame.Enviroment.View.Tachometer();
-            this.blueEngineMarker = new CarGame.Enviroment.View.Speedometer();
+            this.blueSteeringWheel = new Enviroment.View.SteeringWheel();
+            this.blueTachometer = new Enviroment.View.Tachometer();
+            this.blueEngineMarker = new Enviroment.View.Speedometer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.gearGreen = new System.Windows.Forms.Label();
-            this.greenPedals = new CarGame.Enviroment.View.Pedals();
+            this.greenPedals = new Enviroment.View.Pedals();
             this.greenCurrentGear = new System.Windows.Forms.TextBox();
-            this.greenSteeringWheel = new CarGame.Enviroment.View.SteeringWheel();
-            this.greenTachometer = new CarGame.Enviroment.View.Tachometer();
-            this.greenEngineMarker = new CarGame.Enviroment.View.Speedometer();
+            this.greenSteeringWheel = new Enviroment.View.SteeringWheel();
+            this.greenTachometer = new Enviroment.View.Tachometer();
+            this.greenEngineMarker = new Enviroment.View.Speedometer();
             this.about = new System.Windows.Forms.Button();
-            this.score = new CarGame.Game.View.GameScore();
+            this.score = new Game.View.GameScore();
             ((System.ComponentModel.ISupportInitialize)(this.greenCar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueCar)).BeginInit();
             this.blueCockpit.SuspendLayout();
@@ -73,7 +73,7 @@
             // closeButton
             // 
             this.closeButton.BackColor = System.Drawing.Color.Transparent;
-            this.closeButton.BackgroundImage = global::CarGame.Properties.Resources.CloseX;
+            this.closeButton.BackgroundImage = global::Properties.Resources.CloseX;
             this.closeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.closeButton.Location = new System.Drawing.Point(1328, 11);
             this.closeButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -291,7 +291,7 @@
             // about
             // 
             this.about.BackColor = System.Drawing.Color.Transparent;
-            this.about.BackgroundImage = global::CarGame.Properties.Resources.about;
+            this.about.BackgroundImage = global::Properties.Resources.about;
             this.about.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.about.Location = new System.Drawing.Point(675, 687);
             this.about.Name = "about";
@@ -317,7 +317,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::CarGame.Properties.Resources.editedMap;
+            this.BackgroundImage = global::Properties.Resources.editedMap;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.score);

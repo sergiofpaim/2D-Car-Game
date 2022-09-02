@@ -1,9 +1,9 @@
-﻿using CarGame.Enviroment;
-using CarGame.Interfaces;
-using CarGame.Physics;
+﻿using GameEngine.Enviroment;
+using GameEngine.Interfaces;
+using GameEngine.Physics;
 using System.Linq;
 
-namespace CarGame.StaticObjects
+namespace StaticObjects
 {
     public class Obstacle : ISchedule, IStaticObject
     {

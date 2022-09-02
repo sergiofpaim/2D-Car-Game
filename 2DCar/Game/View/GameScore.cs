@@ -1,7 +1,7 @@
-﻿using CarGame.Interfaces;
+﻿using GameEngine.Interfaces;
 
 
-namespace CarGame.Game.View
+namespace Game.View
 {
     public partial class GameScore : Label
     {

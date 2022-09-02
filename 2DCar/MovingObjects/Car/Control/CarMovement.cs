@@ -1,7 +1,7 @@
-﻿using CarGame.Enviroment;
-using CarGame.Physics;
+﻿using GameEngine.Enviroment;
+using GameEngine.Physics;
 
-namespace CarGame.MovingObjects.Car
+namespace MovingObjects.Car
 {
     public class CarMovement
     {

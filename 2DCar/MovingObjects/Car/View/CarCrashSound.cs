@@ -1,4 +1,4 @@
-﻿using CarGame.Utilities;
+﻿using GameEngine.Utilities;
 using CSCore.Streams;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarGame.MovingObjects.Car.View
+namespace MovingObjects.Car.View
 {
     public static class CarCrashSound
     {

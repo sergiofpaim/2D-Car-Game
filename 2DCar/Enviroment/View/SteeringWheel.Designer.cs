@@ -1,4 +1,4 @@
-﻿namespace CarGame.Enviroment.View
+﻿namespace Enviroment.View
 {
     partial class SteeringWheel
     {
@@ -34,7 +34,7 @@
             // 
             // carSteeringWheel
             // 
-            this.carSteeringWheel.Image = global::CarGame.Properties.Resources.SteeringWheel;
+            this.carSteeringWheel.Image = global::Properties.Resources.SteeringWheel;
             this.carSteeringWheel.Location = new System.Drawing.Point(0, 0);
             this.carSteeringWheel.Name = "carSteeringWheel";
             this.carSteeringWheel.Size = new System.Drawing.Size(103, 103);

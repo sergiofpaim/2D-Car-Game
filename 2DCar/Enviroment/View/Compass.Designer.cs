@@ -1,4 +1,4 @@
-﻿namespace CarGame.Enviroment.View
+﻿namespace Enviroment.View
 {
     partial class Compass
     {
@@ -40,7 +40,7 @@
             // 
             // bottomNeedle
             // 
-            this.bottomNeedle.Image = global::CarGame.Properties.Resources.CompassNeedleBottom;
+            this.bottomNeedle.Image = global::Properties.Resources.CompassNeedleBottom;
             this.bottomNeedle.Location = new System.Drawing.Point(56, 22);
             this.bottomNeedle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bottomNeedle.Name = "bottomNeedle";
@@ -52,7 +52,7 @@
             // topNeedle
             // 
             this.topNeedle.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.topNeedle.Image = global::CarGame.Properties.Resources.CompassNeedleTop;
+            this.topNeedle.Image = global::Properties.Resources.CompassNeedleTop;
             this.topNeedle.Location = new System.Drawing.Point(60, 17);
             this.topNeedle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.topNeedle.Name = "topNeedle";

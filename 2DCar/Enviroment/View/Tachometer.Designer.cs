@@ -1,4 +1,4 @@
-﻿namespace CarGame.Enviroment.View
+﻿namespace Enviroment.View
 {
     partial class Tachometer
     {
@@ -39,7 +39,7 @@
             // 
             // tachometerNumbers
             // 
-            this.tachometerNumbers.Image = global::CarGame.Properties.Resources.Tachometer;
+            this.tachometerNumbers.Image = global::Properties.Resources.Tachometer;
             this.tachometerNumbers.Location = new System.Drawing.Point(0, 0);
             this.tachometerNumbers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tachometerNumbers.Name = "tachometerNumbers";
@@ -50,7 +50,7 @@
             // 
             // tachometerMark
             // 
-            this.tachometerMark.BackgroundImage = global::CarGame.Properties.Resources.SpeedometerMark;
+            this.tachometerMark.BackgroundImage = global::Properties.Resources.SpeedometerMark;
             this.tachometerMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tachometerMark.Location = new System.Drawing.Point(25, 22);
             this.tachometerMark.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

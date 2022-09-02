@@ -1,4 +1,4 @@
-﻿namespace CarGame.Enviroment.View
+﻿namespace Enviroment.View
 {
     partial class Pedals
     {
@@ -36,7 +36,7 @@
             // 
             // acceleratorBox
             // 
-            this.acceleratorBox.Image = global::CarGame.Properties.Resources.Accelerator;
+            this.acceleratorBox.Image = global::Properties.Resources.Accelerator;
             this.acceleratorBox.Location = new System.Drawing.Point(44, 0);
             this.acceleratorBox.Name = "acceleratorBox";
             this.acceleratorBox.Size = new System.Drawing.Size(37, 70);
@@ -46,7 +46,7 @@
             // breakBox
             // 
             this.breakBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.breakBox.Image = global::CarGame.Properties.Resources.Break;
+            this.breakBox.Image = global::Properties.Resources.Break;
             this.breakBox.Location = new System.Drawing.Point(3, 1);
             this.breakBox.Name = "breakBox";
             this.breakBox.Size = new System.Drawing.Size(35, 73);

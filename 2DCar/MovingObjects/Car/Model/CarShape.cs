@@ -1,7 +1,7 @@
-﻿using CarGame.Interfaces;
-using CarGame.Physics;
+﻿using GameEngine.Interfaces;
+using GameEngine.Physics;
 
-namespace CarGame.MovingObjects.Car
+namespace MovingObjects.Car
 {
     internal class CarShape
     {

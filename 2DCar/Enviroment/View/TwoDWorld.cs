@@ -1,14 +1,12 @@
-using CarGame.Enviroment;
-using CarGame.Game;
-using CarGame.Game.View;
-using CarGame.Interfaces;
-using CarGame.MovingObjects.Car;
-using CarGame.Physics;
-using CarGame.StaticObjects;
-using CarGame.Utilities;
-using System;
+using Game;
+using MovingObjects.Car;
+using StaticObjects;
+using GameEngine.Enviroment;
+using GameEngine.Interfaces;
+using GameEngine.Physics;
+using GameEngine.Utilities;
 
-namespace CarGame
+namespace Enviroment.View
 {
     public partial class TwoDWorld : Form, IUISchedule
     {

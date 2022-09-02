@@ -1,7 +1,7 @@
-﻿using CarGame.Interfaces;
-using CarGame.Utilities;
+﻿using GameEngine.Interfaces;
+using GameEngine.Utilities;
 
-namespace CarGame.MovingObjects.Car
+namespace MovingObjects.Car
 {
     internal class CarEngineSound : IEngineSound
     {

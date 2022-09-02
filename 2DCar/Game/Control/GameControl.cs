@@ -1,7 +1,7 @@
-﻿using CarGame.Enviroment;
-using CarGame.Interfaces;
+﻿using GameEngine.Enviroment;
+using GameEngine.Interfaces;
 
-namespace CarGame.Game
+namespace Game
 {
     public class GameControl : IGame
     {

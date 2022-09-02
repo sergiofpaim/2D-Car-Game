@@ -1,8 +1,8 @@
-﻿using CarGame.Interfaces;
-using CarGame.MovingObjects.Car;
-using CarGame.Utilities;
+﻿using GameEngine.Interfaces;
+using MovingObjects.Car;
+using GameEngine.Utilities;
 
-namespace CarGame.Enviroment.View
+namespace Enviroment.View
 {
     public partial class Tachometer : UserControl, IUISchedule
     {

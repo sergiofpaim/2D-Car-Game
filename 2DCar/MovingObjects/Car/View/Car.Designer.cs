@@ -1,4 +1,4 @@
-﻿namespace CarGame.MovingObjects.Car.View
+﻿namespace MovingObjects.Car.View
 {
     partial class Car
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CarGame.Properties {
+namespace Properties {
     using System;
     
     

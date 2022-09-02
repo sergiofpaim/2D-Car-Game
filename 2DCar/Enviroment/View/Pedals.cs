@@ -1,7 +1,7 @@
-﻿using CarGame.Interfaces;
-using CarGame.MovingObjects.Car;
+﻿using GameEngine.Interfaces;
+using MovingObjects.Car;
 
-namespace CarGame.Enviroment.View
+namespace Enviroment.View
 {
     public partial class Pedals : UserControl, IUISchedule
     {

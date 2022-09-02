@@ -1,4 +1,4 @@
-﻿namespace CarGame.Game.View
+﻿namespace Game.View
 {
     partial class GameScore
     {

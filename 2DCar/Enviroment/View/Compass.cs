@@ -1,6 +1,6 @@
-﻿using CarGame.Interfaces;
-using CarGame.MovingObjects.Car;
-using CarGame.Physics;
+﻿using GameEngine.Interfaces;
+using MovingObjects.Car;
+using GameEngine.Physics;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CarGame.Enviroment.View
+namespace Enviroment.View
 {
     public partial class Compass : UserControl, IUISchedule
     {

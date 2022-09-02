@@ -1,4 +1,4 @@
-﻿namespace CarGame.MovingObjects.Car
+﻿namespace MovingObjects.Car
 {
     internal class Gear
     {

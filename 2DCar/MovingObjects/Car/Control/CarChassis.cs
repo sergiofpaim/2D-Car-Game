@@ -1,7 +1,7 @@
 ﻿
-using CarGame.Enviroment;
+using GameEngine.Enviroment;
 
-namespace CarGame.MovingObjects.Car
+namespace MovingObjects.Car
 {
     public class CarChassis
     {

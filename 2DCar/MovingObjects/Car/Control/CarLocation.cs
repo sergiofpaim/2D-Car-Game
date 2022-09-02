@@ -1,9 +1,9 @@
-﻿using CarGame.Enviroment;
-using CarGame.Interfaces;
-using CarGame.Physics;
+﻿using GameEngine.Enviroment;
+using GameEngine.Interfaces;
+using GameEngine.Physics;
 using System.Linq;
 
-namespace CarGame.MovingObjects.Car
+namespace MovingObjects.Car
 {
     public class CarLocation : ISchedule, IMovingObject
     {

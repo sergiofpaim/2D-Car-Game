@@ -1,4 +1,4 @@
-﻿namespace CarGame.Enviroment.View
+﻿namespace Enviroment.View
 {
     partial class Speedometer
     {
@@ -39,7 +39,7 @@
             // speedMark
             // 
             this.speedMark.BackColor = System.Drawing.Color.Transparent;
-            this.speedMark.BackgroundImage = global::CarGame.Properties.Resources.SpeedometerMark;
+            this.speedMark.BackgroundImage = global::Properties.Resources.SpeedometerMark;
             this.speedMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.speedMark.Location = new System.Drawing.Point(14, 20);
             this.speedMark.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -62,7 +62,7 @@
             // speedometerCar
             // 
             this.speedometerCar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.speedometerCar.Image = global::CarGame.Properties.Resources.Speedometer;
+            this.speedometerCar.Image = global::Properties.Resources.Speedometer;
             this.speedometerCar.Location = new System.Drawing.Point(0, 6);
             this.speedometerCar.Name = "speedometerCar";
             this.speedometerCar.Size = new System.Drawing.Size(80, 80);

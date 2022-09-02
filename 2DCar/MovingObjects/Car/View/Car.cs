@@ -1,9 +1,10 @@
-﻿using CarGame.Game;
-using CarGame.Interfaces;
-using CarGame.MovingObjects.Car.View;
-using CarGame.Utilities;
+﻿using Game;
+using GameEngine.Interfaces;
+using MovingObjects.Car.View;
+using GameEngine.Utilities;
+using Enviroment.View;
 
-namespace CarGame.MovingObjects.Car
+namespace MovingObjects.Car
 {
     public partial class Car : PictureBox, IUISchedule
     {
