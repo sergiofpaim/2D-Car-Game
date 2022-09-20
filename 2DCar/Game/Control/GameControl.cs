@@ -3,7 +3,9 @@ using GameEngine.Interfaces;
 
 namespace Game
 {
+#pragma warning disable CS0436 // Type conflicts with imported type
     public class GameControl : IGame
+#pragma warning restore CS0436 // Type conflicts with imported type
     {
         public bool Over { get; internal set; }
         public string Winner { get; internal set; }
